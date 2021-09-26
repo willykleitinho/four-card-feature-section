@@ -1,0 +1,152 @@
+:root {
+
+  --clr-1: hsl(180, 62%, 55%);
+  --clr-2: hsl(0, 78%, 62%);
+  --clr-3: hsl(34, 97%, 64%);
+  --clr-4: hsl(212, 86%, 64%);
+
+  --clr-font-dark: hsl(234, 12%, 34%);
+  --clr-font-medium: hsl(229, 6%, 66%);
+  --clr-bg: hsl(0, 0%, 98%);
+
+  --font-size: 15px;
+
+  --font-family: 'Poppins', sans-serif;
+}
+
+/*
+  AVAILABLE FONT WEIGHTS
+  - 200
+  - 400
+  - 600 
+*/
+
+body, header, main, footer, h1, h2,
+p, strong, section, div, img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--clr-bg);
+  padding: 2em;
+}
+
+header h1, header p {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  font-weight: 200;
+  color: var(--clr-font-dark);
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
+header h1 strong {
+  font-weight: 600;
+  display: block;
+}
+
+header p {
+  max-width: 500px;
+  font-size: 1em;
+  color: var(--clr-font-medium);
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  border-top: 4px solid var(--clr-border-top, #999);
+  border-radius: 7px;
+  padding: 1.75em;
+  padding-bottom: 9em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 10px 15px hsla(212, 48%, 46%, 0.2);
+  position: relative;
+}
+
+section h2 {
+  color: var(--clr-font-dark);
+  font-size: 1.25em;
+  margin-bottom: 0.25em;
+}
+
+section p {
+  color: var(--clr-font-medium);
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+img {
+  margin: 1.75em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.attribution {
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.75em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2em;
+}
+
+.attribution a {
+  color: var(--clr-1);
+  font-weight: 600;
+}
+
+.border-1 { --clr-border-top: var(--clr-1); }
+.border-2 { --clr-border-top: var(--clr-2); }
+.border-3 { --clr-border-top: var(--clr-3); }
+.border-4 { --clr-border-top: var(--clr-4); }
+
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .container > * {
+    flex-basis: 100%;
+  }
+
+  .container > * + * {
+    margin-left: 2em;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  section {
+    padding: 2em;
+    padding-bottom: 9em;
+    margin-bottom: 2em;
+  }
+
+  .attribution a {
+    color: var(--clr-2);
+  }
+}
