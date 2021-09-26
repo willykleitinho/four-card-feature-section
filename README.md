@@ -52,4 +52,4 @@ In this project I practiced writing clean CSS and HTML, mobile-first workflow, F
 ## Author
 
 - Github - [willykleitinho](https://github.com/willykleitinho)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/willykleitinho)
+- Frontend Mentor - [@willykleitinho](https://www.frontendmentor.io/profile/willykleitinho)
