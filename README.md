@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [on Github Pages](https://your-live-site-url.com)
+- Solution URL: [on Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-using-flexbox-and-custom-properties-9pd-Ox2Jr)
+- Live Site URL: [on Github Pages](https://willykleitinho.github.io/four-card-feature-section/)
 
 ## My process
 
